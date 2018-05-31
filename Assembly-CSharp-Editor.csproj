@@ -93,6 +93,8 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\PRISM\Editor\PrismEffectsEditor.cs" />
+    <Compile Include="Assets\PRISM\Editor\PrismVolumeEditor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/fukuiyuuki/Github/Horror_Games/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
