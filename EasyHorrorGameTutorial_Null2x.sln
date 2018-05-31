@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHorrorGameTutorial_Null2x", "Assembly-CSharp.csproj", "{4671C214-4A8F-564B-DD85-2F48EEE38044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHorrorGameTutorial_Null2x", "Assembly-CSharp-firstpass.csproj", "{7442931A-854C-5CE6-EEFE-202C4080D366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHorrorGameTutorial_Null2x", "Assembly-CSharp-Editor-firstpass.csproj", "{1010239E-94E2-A95C-1E33-128DF506BEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4671C214-4A8F-564B-DD85-2F48EEE38044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4671C214-4A8F-564B-DD85-2F48EEE38044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4671C214-4A8F-564B-DD85-2F48EEE38044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4671C214-4A8F-564B-DD85-2F48EEE38044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7442931A-854C-5CE6-EEFE-202C4080D366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7442931A-854C-5CE6-EEFE-202C4080D366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7442931A-854C-5CE6-EEFE-202C4080D366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7442931A-854C-5CE6-EEFE-202C4080D366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1010239E-94E2-A95C-1E33-128DF506BEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1010239E-94E2-A95C-1E33-128DF506BEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1010239E-94E2-A95C-1E33-128DF506BEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1010239E-94E2-A95C-1E33-128DF506BEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
