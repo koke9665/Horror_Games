@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 8
+  serializedVersion: 9
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7e1e5781d39549148abcbf66c428df00, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22510481, g: 0.25166202, b: 0.32264084, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -54,11 +55,10 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
+    m_AtlasSize: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -158,54 +158,69 @@ AudioSource:
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 2
+    - serializedVersion: 3
       time: 0
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - serializedVersion: 2
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
       time: 1
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 2
+    - serializedVersion: 3
       time: 0
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 2
+    - serializedVersion: 3
       time: 0
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - serializedVersion: 2
+    - serializedVersion: 3
       time: 0
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
@@ -399,6 +414,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -547,6 +563,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -632,7 +649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &416483254
 Light:
   m_ObjectHideFlags: 0
@@ -749,6 +766,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -959,6 +977,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &937937828
 Prefab:
   m_ObjectHideFlags: 0
@@ -1053,6 +1072,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5b799a785c2234e43a70df0669424755, type: 2}
   m_StaticBatchInfo:
@@ -1198,6 +1218,8 @@ GameObject:
   - component: {fileID: 1255833397}
   - component: {fileID: 1255833396}
   - component: {fileID: 1255833395}
+  - component: {fileID: 1255833399}
+  - component: {fileID: 1255833400}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1268,6 +1290,194 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255833399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255833394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 57074419fe24d46e698abe3111de273a, type: 2}
+--- !u!114 &1255833400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255833394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0247cc23c066a0549a9906c534207546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPrismPreset: {fileID: 11400000, guid: e0f64dff839ec5c448a6e288eb823e51, type: 2}
+  currentlyInsideVolume: 0
+  enableGuaranteedMaterialOptimization: 0
+  autoTurnOffDepthTextures: 1
+  renderDepthDebug: 0
+  m_Material: {fileID: 0}
+  m_Shader: {fileID: 4800000, guid: 4cd270e10d4c090498ab18347d05fb18, type: 3}
+  m_Material2: {fileID: 0}
+  m_Shader2: {fileID: 4800000, guid: d2e7a63d7748a344db01814c761262ee, type: 3}
+  m_AOMaterial: {fileID: 0}
+  m_AOShader: {fileID: 4800000, guid: 908dab8ab0848bf4dade31fd80140c70, type: 3}
+  m_Material3: {fileID: 0}
+  m_Shader3: {fileID: 4800000, guid: f4b3ce83c812df64e8548d5697a460ed, type: 3}
+  m_DoFMaterial: {fileID: 0}
+  m_DoFShader: {fileID: 4800000, guid: 34790ad658f0df5438c038801eaf340c, type: 3}
+  m_FlaresMaterial: {fileID: 0}
+  m_FlaresShader: {fileID: 4800000, guid: 56b820a2a0d2295438127d32d0ac63c7, type: 3}
+  doBigPass: 1
+  useSeparableBlur: 1
+  lensDirtTexture: {fileID: 2800000, guid: 948b3aac09c68364a9a3764fa78ef974, type: 3}
+  useLensDirt: 1
+  useBloom: 1
+  useBloomFlares: 0
+  bloomUseScreenBlend: 0
+  bloomType: 1
+  useDifferentMobileBloom: 0
+  bloomThreshType: 2
+  debugBloomTex: 0
+  bloomDownsampleEnum: 4
+  bloomDownsample: 4
+  bloomBlurPasses: 1
+  bloomIntensity: 2.73
+  bloomOneIntensity: 0.15
+  bloomTwoIntensity: 0.15
+  bloomThreeIntensity: 0.15
+  bloomFourIntensity: 0.15
+  bloomThreshold: 1.211
+  bloomRadius: 1
+  bloomKnee: 1.538
+  dirtIntensity: 0.34
+  useBloomStability: 0
+  bloomFlareStarburstTex: {fileID: 0}
+  bloomFlareStrength: 1.9
+  bloomFlareHaloWidth: 0.5
+  bloomFlareGhostDispersal: 0.11
+  bloomFlareChromaticDistortion: 1.03
+  bloomFlareLensDirtIntensityMultiplier: 1.9
+  bloomFlareNumberGhosts: 6
+  bloomFlareRadius1: 0
+  bloomFlareRadius2: 0
+  bloomFlareRadius3: 0
+  useUIBlur: 0
+  uiBlurGrabTextureFromPassNumber: 2
+  useVignette: 0
+  vignetteStart: 0.792
+  vignetteEnd: 0.491
+  vignetteStrength: 0.857
+  vignetteColor: {r: 0.1397059, g: 0.09039793, b: 0.09039793, a: 1}
+  useNoise: 0
+  useDither: 0
+  noiseTexture: {fileID: 2800000, guid: d20b7c940c173cb45aae1d81e777429b, type: 3}
+  noiseIntensity: 0.047
+  secondaryNoiseMultiplier: 0.01
+  useChromaticAberration: 0
+  aberrationType: 0
+  chromaticDistanceOne: 0.299
+  chromaticDistanceTwo: 1
+  chromaticIntensity: 0
+  chromaticBlurWidth: 0
+  useChromaticBlur: 0
+  useTonemap: 0
+  tonemapType: 2
+  toneValues: {x: 2.51, y: 0.03, z: 2.43}
+  secondaryToneValues: {x: 0.59, y: 0.14, z: 0}
+  useBrightness: 0
+  brightIntensity: 0.173
+  brightCutoff: 0.3
+  brightSoftness: 0
+  useExposure: 0
+  debugViewExposure: 0
+  exposureMiddleGrey: 0.12
+  exposureLowerLimit: 0.4
+  exposureUpperLimit: 9
+  exposureSpeed: 0
+  histWidth: 1
+  histHeight: 1
+  useGammaCorrection: 0
+  gammaValue: 2.5
+  useDof: 1
+  dofForceEnableMedian: 0
+  useNearDofBlur: 1
+  useFullScreenBlur: 0
+  dofNearFocusPoint: 5
+  dofNearFocusDistance: 25.5
+  dofFocusPoint: 3.28
+  dofFocusDistance: 42.1
+  dofDownsample: 2
+  dofUseMRT: 0
+  dofRadius: 0.104
+  dofBokehFactor: 126
+  dofSampleAmount: 1
+  useDICEDof: 0
+  dofShapeWeight: 0.57735026
+  dofBlurSkybox: 1
+  debugDofPass: 0
+  dofDebugType: 4
+  dofFocusTransform: {fileID: 0}
+  useLut: 0
+  twoDLookupTex: {fileID: 2800000, guid: d924a6de4d4d57840b13fce0b893f17f, type: 3}
+  threeDLookupTex: {fileID: 0}
+  basedOnTempTex: LUT_Spooky
+  lutLerpAmount: 0
+  useSecondLut: 0
+  secondaryTwoDLookupTex: {fileID: 0}
+  secondaryThreeDLookupTex: {fileID: 0}
+  secondaryBasedOnTempTex: 
+  secondaryLutLerpAmount: 0.441
+  useColorify: 1
+  colorifyAmount: 0.2
+  useSharpen: 0
+  sharpenAmount: 1
+  useFog: 0
+  fogAffectSkybox: 0
+  fogHeight: 2
+  fogIntensity: 1
+  fogStartPoint: 364.3
+  fogDistance: 630
+  fogColor: {r: 0.25960764, g: 0.2495134, b: 0.52205884, a: 1}
+  fogMidColor: {r: 0, g: 0, b: 0, a: 1}
+  fogEndColor: {r: 1, g: 1, b: 1, a: 1}
+  fogMidPoint: 50
+  fogEndPoint: 50
+  fogNoiseFactor1: 0.1
+  fogNoiseFactor2: 0.5
+  fogExpFactor: 2
+  useAmbientObscurance: 1
+  aoSampleCount: 3
+  useAODistanceCutoff: 0
+  aoDistanceCutoffLength: 50
+  aoDistanceCutoffStart: 500
+  aoIntensity: 1.315
+  aoContrast: 0.6
+  aoMinIntensity: 0
+  aoRadius: 2
+  aoDownsample: 0
+  aoBlurType: 4
+  aoBlurIterations: 1
+  aoBias: 0.058
+  aoBlurFilterDistance: 1.25
+  aoLightingContribution: 1
+  aoShowDebug: 0
+  useRays: 0
+  rayTransform: {fileID: 0}
+  rayWeight: 0.58767
+  rayDecay: 0.96815
+  rayExposure: 0.2
+  rayDensity: 0.926
+  rayColor: {r: 1, g: 1, b: 1, a: 1}
+  rayThreshold: {r: 0.1544118, g: 0.12690462, b: 0.10786118, a: 1}
+  rayDownsample: 4
+  raysShowDebug: 0
+  occlusionSource: 0
+  advancedVignette: 0
+  advancedAO: 0
+  advancedDof: 1
 --- !u!1 &1478724051
 GameObject:
   m_ObjectHideFlags: 0

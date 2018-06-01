@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1106,23 +1106,23 @@ MonoBehaviour:
   bloomDownsampleEnum: 4
   bloomDownsample: 4
   bloomBlurPasses: 1
-  bloomIntensity: 2.19
+  bloomIntensity: 3.71
   bloomOneIntensity: 0.15
   bloomTwoIntensity: 0.15
   bloomThreeIntensity: 0.15
   bloomFourIntensity: 0.15
-  bloomThreshold: 0.606
-  bloomRadius: 2.19
+  bloomThreshold: 0.415
+  bloomRadius: 1
   bloomKnee: 0.886
-  dirtIntensity: 0.0001
+  dirtIntensity: 0.344
   useBloomStability: 0
   bloomFlareStarburstTex: {fileID: 0}
-  bloomFlareStrength: 0.28
+  bloomFlareStrength: 0.769
   bloomFlareHaloWidth: 0.5
   bloomFlareGhostDispersal: 0.11
-  bloomFlareChromaticDistortion: 0.921
-  bloomFlareLensDirtIntensityMultiplier: 1.11
-  bloomFlareNumberGhosts: 5
+  bloomFlareChromaticDistortion: 1.03
+  bloomFlareLensDirtIntensityMultiplier: 1.9
+  bloomFlareNumberGhosts: 6
   bloomFlareRadius1: 0
   bloomFlareRadius2: 0
   bloomFlareRadius3: 0
@@ -1163,17 +1163,17 @@ MonoBehaviour:
   histHeight: 1
   useGammaCorrection: 0
   gammaValue: 2.5
-  useDof: 0
+  useDof: 1
   dofForceEnableMedian: 0
-  useNearDofBlur: 0
+  useNearDofBlur: 1
   useFullScreenBlur: 0
-  dofNearFocusPoint: 5
-  dofNearFocusDistance: 58.8
+  dofNearFocusPoint: 1.43
+  dofNearFocusDistance: 1.53
   dofFocusPoint: 3.28
   dofFocusDistance: 42.1
   dofDownsample: 2
   dofUseMRT: 0
-  dofRadius: 0.877
+  dofRadius: 0.471
   dofBokehFactor: 164
   dofSampleAmount: 1
   useDICEDof: 0
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   secondaryThreeDLookupTex: {fileID: 0}
   secondaryBasedOnTempTex: 
   secondaryLutLerpAmount: 0.441
-  useColorify: 1
+  useColorify: 0
   colorifyAmount: 0.2
   useSharpen: 0
   sharpenAmount: 1

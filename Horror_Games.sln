@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horror_Games", "Assembly-CSharp.csproj", "{21061401-0EF3-454A-F29B-52F33EB10CF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horror_Games", "Assembly-CSharp-firstpass.csproj", "{FCF9CE85-D21A-8FF9-8DC8-615B1DD8EEFD}"
