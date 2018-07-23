@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     public GameObject Player_Object;
     public Animator Player;
+    public AudioClip Test_beap;
     public float Count = 0;
     public float Count2 = 0;
     public int Count3 = 0;
@@ -90,5 +92,12 @@ public class GameController : MonoBehaviour {
 
     void GameOverTime(){
         GameOver.active = true;
+        GetComponent<AudioSource>().PlayOneShot(Test_beap);
+        Invoke("Application", 1f);
+    }
+
+    void Application()
+    {
+        SceneManager.LoadScene("DemoGameOver");
     }
 }
