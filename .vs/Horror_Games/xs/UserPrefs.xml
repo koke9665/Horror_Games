@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{21061401-0EF3-454A-F29B-52F33EB10CF9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cinemachine/Base/Runtime/Behaviours/CinemachineVirtualCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
       <File FileName="Assets/Scripts/Scene_move.cs" Line="22" Column="8" />
       <File FileName="Assets/Chapter10/MainMenu2.cs" Line="44" Column="61" />

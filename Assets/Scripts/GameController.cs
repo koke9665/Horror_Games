@@ -98,6 +98,6 @@ public class GameController : MonoBehaviour {
 
     void Application()
     {
-        SceneManager.LoadScene("DemoGameOver");
+        SceneManager.LoadScene("TestScene");
     }
 }

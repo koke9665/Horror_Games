@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/TestScene.unity
-=======
-- path: Assets/Scenes/DemoGameOver.unity
->>>>>>> f3c7a12e956635a1ba1130866b807396e9333060
   isLoaded: 1
   isActive: 1
