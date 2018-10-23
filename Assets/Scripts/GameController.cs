@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-      GameOver_Count = Random.Range(1,4);
+      GameOver_Count = Random.Range(1,5);
     }
 
     // Update is called once per frame

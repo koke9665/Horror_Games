@@ -1986,7 +1986,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1065568830541074, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1307041588420050, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -1994,11 +1994,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1510512704800980, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1506654286053020, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1962296022797478, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -2006,7 +2006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1450749755564272, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1749615759085722, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -2014,7 +2014,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1195134890927404, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1616303261321248, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -2022,11 +2022,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1203651017575158, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1605795935826968, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1846308368201824, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -2054,11 +2054,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1803878636082256, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1242302575982242, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1090121285840654, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
@@ -2505,6 +2505,10 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1086603983387578, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014832994895922, guid: 97b6dc7ee13aa4b3bb01fb2406119338, type: 2}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3294,6 +3298,7 @@ GameObject:
   - component: {fileID: 512178207}
   - component: {fileID: 512178206}
   - component: {fileID: 512178205}
+  - component: {fileID: 512178209}
   m_Layer: 0
   m_Name: Camera2
   m_TagString: Untagged
@@ -3403,6 +3408,182 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &512178209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 512178203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0247cc23c066a0549a9906c534207546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPrismPreset: {fileID: 11400000, guid: 7c4b77e2b4b6a4f9791bc6a99a18da5f, type: 2}
+  currentlyInsideVolume: 0
+  enableGuaranteedMaterialOptimization: 0
+  autoTurnOffDepthTextures: 1
+  renderDepthDebug: 0
+  m_Material: {fileID: 0}
+  m_Shader: {fileID: 4800000, guid: 4cd270e10d4c090498ab18347d05fb18, type: 3}
+  m_Material2: {fileID: 0}
+  m_Shader2: {fileID: 4800000, guid: d2e7a63d7748a344db01814c761262ee, type: 3}
+  m_AOMaterial: {fileID: 0}
+  m_AOShader: {fileID: 4800000, guid: 908dab8ab0848bf4dade31fd80140c70, type: 3}
+  m_Material3: {fileID: 0}
+  m_Shader3: {fileID: 4800000, guid: f4b3ce83c812df64e8548d5697a460ed, type: 3}
+  m_DoFMaterial: {fileID: 0}
+  m_DoFShader: {fileID: 4800000, guid: 34790ad658f0df5438c038801eaf340c, type: 3}
+  m_FlaresMaterial: {fileID: 0}
+  m_FlaresShader: {fileID: 4800000, guid: 56b820a2a0d2295438127d32d0ac63c7, type: 3}
+  doBigPass: 1
+  useSeparableBlur: 1
+  lensDirtTexture: {fileID: 2800000, guid: 7a051dbda2d7bc447bee412427cd311e, type: 3}
+  useLensDirt: 1
+  useBloom: 1
+  useBloomFlares: 0
+  bloomUseScreenBlend: 0
+  bloomType: 1
+  useDifferentMobileBloom: 0
+  bloomThreshType: 0
+  debugBloomTex: 0
+  bloomDownsampleEnum: 4
+  bloomDownsample: 4
+  bloomBlurPasses: 1
+  bloomIntensity: 0.2
+  bloomOneIntensity: 0.15
+  bloomTwoIntensity: 0.15
+  bloomThreeIntensity: 0.15
+  bloomFourIntensity: 0.15
+  bloomThreshold: 0
+  bloomRadius: 1
+  bloomKnee: 1
+  dirtIntensity: 0.0000001
+  useBloomStability: 1
+  bloomFlareStarburstTex: {fileID: 0}
+  bloomFlareStrength: 1.9
+  bloomFlareHaloWidth: 0.5
+  bloomFlareGhostDispersal: 0.11
+  bloomFlareChromaticDistortion: 1.03
+  bloomFlareLensDirtIntensityMultiplier: 1.9
+  bloomFlareNumberGhosts: 6
+  bloomFlareRadius1: 0
+  bloomFlareRadius2: 0
+  bloomFlareRadius3: 0
+  useUIBlur: 0
+  uiBlurGrabTextureFromPassNumber: 2
+  useVignette: 0
+  vignetteStart: 0.9
+  vignetteEnd: 0.4
+  vignetteStrength: 1
+  vignetteColor: {r: 0, g: 0, b: 0, a: 1}
+  useNoise: 0
+  useDither: 0
+  noiseTexture: {fileID: 2800000, guid: d20b7c940c173cb45aae1d81e777429b, type: 3}
+  noiseIntensity: 0
+  secondaryNoiseMultiplier: 0.01
+  useChromaticAberration: 0
+  aberrationType: 0
+  chromaticDistanceOne: 0.9
+  chromaticDistanceTwo: 0.4
+  chromaticIntensity: 0.05
+  chromaticBlurWidth: 1
+  useChromaticBlur: 0
+  useTonemap: 0
+  tonemapType: 0
+  toneValues: {x: 6.2, y: 0.5, z: 1.7}
+  secondaryToneValues: {x: 0.004, y: 0.06, z: 0}
+  useBrightness: 0
+  brightIntensity: 0.5
+  brightCutoff: 0.2
+  brightSoftness: 0.2
+  useExposure: 0
+  debugViewExposure: 0
+  exposureMiddleGrey: 0.243
+  exposureLowerLimit: -6.83
+  exposureUpperLimit: 10
+  exposureSpeed: 5
+  histWidth: 1
+  histHeight: 1
+  useGammaCorrection: 0
+  gammaValue: 1
+  useDof: 1
+  dofForceEnableMedian: 0
+  useNearDofBlur: 1
+  useFullScreenBlur: 0
+  dofNearFocusPoint: 5
+  dofNearFocusDistance: 84.4
+  dofFocusPoint: 1.75
+  dofFocusDistance: 4.9
+  dofDownsample: 2
+  dofUseMRT: 0
+  dofRadius: 1.53
+  dofBokehFactor: 101
+  dofSampleAmount: 0
+  useDICEDof: 0
+  dofShapeWeight: 0.57735026
+  dofBlurSkybox: 0
+  debugDofPass: 0
+  dofDebugType: 4
+  dofFocusTransform: {fileID: 0}
+  useLut: 0
+  twoDLookupTex: {fileID: 0}
+  threeDLookupTex: {fileID: 0}
+  basedOnTempTex: 
+  lutLerpAmount: 1
+  useSecondLut: 0
+  secondaryTwoDLookupTex: {fileID: 0}
+  secondaryThreeDLookupTex: {fileID: 0}
+  secondaryBasedOnTempTex: 
+  secondaryLutLerpAmount: 0
+  useColorify: 0
+  colorifyAmount: 0.4
+  useSharpen: 0
+  sharpenAmount: 0.65
+  useFog: 0
+  fogAffectSkybox: 0
+  fogHeight: 2
+  fogIntensity: 1
+  fogStartPoint: 50
+  fogDistance: 341
+  fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  fogMidColor: {r: 0, g: 0, b: 0, a: 1}
+  fogEndColor: {r: 0, g: 0, b: 0, a: 1}
+  fogMidPoint: 50
+  fogEndPoint: 50
+  fogNoiseFactor1: 0.1
+  fogNoiseFactor2: 0.5
+  fogExpFactor: 2
+  useAmbientObscurance: 0
+  aoSampleCount: 6
+  useAODistanceCutoff: 0
+  aoDistanceCutoffLength: 50
+  aoDistanceCutoffStart: 500
+  aoIntensity: 0.7
+  aoContrast: 0.6
+  aoMinIntensity: 0
+  aoRadius: 1
+  aoDownsample: 0
+  aoBlurType: 3
+  aoBlurIterations: 1
+  aoBias: 0.1
+  aoBlurFilterDistance: 1.25
+  aoLightingContribution: 1
+  aoShowDebug: 0
+  useRays: 0
+  rayTransform: {fileID: 0}
+  rayWeight: 0.58767
+  rayDecay: 0.96815
+  rayExposure: 0.2
+  rayDensity: 0.926
+  rayColor: {r: 1, g: 1, b: 1, a: 1}
+  rayThreshold: {r: 0.87, g: 0.74, b: 0.65, a: 1}
+  rayDownsample: 4
+  raysShowDebug: 0
+  occlusionSource: 0
+  advancedVignette: 0
+  advancedAO: 0
+  advancedDof: 1
 --- !u!1 &513550294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4060,7 +4241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -5295,6 +5476,182 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &869670933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 869670930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0247cc23c066a0549a9906c534207546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPrismPreset: {fileID: 11400000, guid: 7c395234530a24991844d74529b9f086, type: 2}
+  currentlyInsideVolume: 0
+  enableGuaranteedMaterialOptimization: 0
+  autoTurnOffDepthTextures: 1
+  renderDepthDebug: 0
+  m_Material: {fileID: 0}
+  m_Shader: {fileID: 4800000, guid: 4cd270e10d4c090498ab18347d05fb18, type: 3}
+  m_Material2: {fileID: 0}
+  m_Shader2: {fileID: 4800000, guid: d2e7a63d7748a344db01814c761262ee, type: 3}
+  m_AOMaterial: {fileID: 0}
+  m_AOShader: {fileID: 4800000, guid: 908dab8ab0848bf4dade31fd80140c70, type: 3}
+  m_Material3: {fileID: 0}
+  m_Shader3: {fileID: 4800000, guid: f4b3ce83c812df64e8548d5697a460ed, type: 3}
+  m_DoFMaterial: {fileID: 0}
+  m_DoFShader: {fileID: 4800000, guid: 34790ad658f0df5438c038801eaf340c, type: 3}
+  m_FlaresMaterial: {fileID: 0}
+  m_FlaresShader: {fileID: 4800000, guid: 56b820a2a0d2295438127d32d0ac63c7, type: 3}
+  doBigPass: 1
+  useSeparableBlur: 1
+  lensDirtTexture: {fileID: 2800000, guid: 7a051dbda2d7bc447bee412427cd311e, type: 3}
+  useLensDirt: 1
+  useBloom: 1
+  useBloomFlares: 0
+  bloomUseScreenBlend: 0
+  bloomType: 1
+  useDifferentMobileBloom: 0
+  bloomThreshType: 0
+  debugBloomTex: 0
+  bloomDownsampleEnum: 4
+  bloomDownsample: 4
+  bloomBlurPasses: 1
+  bloomIntensity: 0.2
+  bloomOneIntensity: 0.15
+  bloomTwoIntensity: 0.15
+  bloomThreeIntensity: 0.15
+  bloomFourIntensity: 0.15
+  bloomThreshold: 0.02
+  bloomRadius: 1
+  bloomKnee: 1
+  dirtIntensity: 0.0000001
+  useBloomStability: 1
+  bloomFlareStarburstTex: {fileID: 0}
+  bloomFlareStrength: 1.9
+  bloomFlareHaloWidth: 0.5
+  bloomFlareGhostDispersal: 0.11
+  bloomFlareChromaticDistortion: 1.03
+  bloomFlareLensDirtIntensityMultiplier: 1.9
+  bloomFlareNumberGhosts: 6
+  bloomFlareRadius1: 0
+  bloomFlareRadius2: 0
+  bloomFlareRadius3: 0
+  useUIBlur: 0
+  uiBlurGrabTextureFromPassNumber: 2
+  useVignette: 0
+  vignetteStart: 0.9
+  vignetteEnd: 0.4
+  vignetteStrength: 1
+  vignetteColor: {r: 0, g: 0, b: 0, a: 1}
+  useNoise: 0
+  useDither: 0
+  noiseTexture: {fileID: 2800000, guid: d20b7c940c173cb45aae1d81e777429b, type: 3}
+  noiseIntensity: 0
+  secondaryNoiseMultiplier: 0.01
+  useChromaticAberration: 0
+  aberrationType: 0
+  chromaticDistanceOne: 0.9
+  chromaticDistanceTwo: 0.4
+  chromaticIntensity: 0.05
+  chromaticBlurWidth: 1
+  useChromaticBlur: 0
+  useTonemap: 0
+  tonemapType: 0
+  toneValues: {x: 6.2, y: 0.5, z: 1.7}
+  secondaryToneValues: {x: 0.004, y: 0.06, z: 0}
+  useBrightness: 0
+  brightIntensity: 0.5
+  brightCutoff: 0.2
+  brightSoftness: 0.2
+  useExposure: 1
+  debugViewExposure: 0
+  exposureMiddleGrey: 0.243
+  exposureLowerLimit: -6.83
+  exposureUpperLimit: 5.98
+  exposureSpeed: 5
+  histWidth: 1
+  histHeight: 1
+  useGammaCorrection: 0
+  gammaValue: 1
+  useDof: 1
+  dofForceEnableMedian: 0
+  useNearDofBlur: 1
+  useFullScreenBlur: 0
+  dofNearFocusPoint: 4.76
+  dofNearFocusDistance: 26.9
+  dofFocusPoint: 8.5
+  dofFocusDistance: 22
+  dofDownsample: 2
+  dofUseMRT: 0
+  dofRadius: 0
+  dofBokehFactor: 101
+  dofSampleAmount: 0
+  useDICEDof: 0
+  dofShapeWeight: 0.57735026
+  dofBlurSkybox: 0
+  debugDofPass: 0
+  dofDebugType: 2
+  dofFocusTransform: {fileID: 0}
+  useLut: 0
+  twoDLookupTex: {fileID: 0}
+  threeDLookupTex: {fileID: 0}
+  basedOnTempTex: 
+  lutLerpAmount: 1
+  useSecondLut: 0
+  secondaryTwoDLookupTex: {fileID: 0}
+  secondaryThreeDLookupTex: {fileID: 0}
+  secondaryBasedOnTempTex: 
+  secondaryLutLerpAmount: 0
+  useColorify: 0
+  colorifyAmount: 0.4
+  useSharpen: 0
+  sharpenAmount: 0.65
+  useFog: 0
+  fogAffectSkybox: 0
+  fogHeight: 2
+  fogIntensity: 1
+  fogStartPoint: 50
+  fogDistance: 341
+  fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  fogMidColor: {r: 0, g: 0, b: 0, a: 1}
+  fogEndColor: {r: 0, g: 0, b: 0, a: 1}
+  fogMidPoint: 50
+  fogEndPoint: 50
+  fogNoiseFactor1: 0.1
+  fogNoiseFactor2: 0.5
+  fogExpFactor: 2
+  useAmbientObscurance: 0
+  aoSampleCount: 6
+  useAODistanceCutoff: 0
+  aoDistanceCutoffLength: 50
+  aoDistanceCutoffStart: 500
+  aoIntensity: 0.7
+  aoContrast: 0.6
+  aoMinIntensity: 0
+  aoRadius: 1
+  aoDownsample: 0
+  aoBlurType: 3
+  aoBlurIterations: 1
+  aoBias: 0.1
+  aoBlurFilterDistance: 1.25
+  aoLightingContribution: 1
+  aoShowDebug: 0
+  useRays: 0
+  rayTransform: {fileID: 0}
+  rayWeight: 0.58767
+  rayDecay: 0.96815
+  rayExposure: 0.2
+  rayDensity: 0.926
+  rayColor: {r: 1, g: 1, b: 1, a: 1}
+  rayThreshold: {r: 0.87, g: 0.74, b: 0.65, a: 1}
+  rayDownsample: 4
+  raysShowDebug: 0
+  occlusionSource: 0
+  advancedVignette: 0
+  advancedAO: 0
+  advancedDof: 1
 --- !u!114 &869670935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10160,7 +10517,7 @@ MonoBehaviour:
   GameOver_Count: 0
   Player_Turn_1: 0
   Player_Turn_2: 0
-  Negative_Point: 15
+  Negative_Point: 20
   Turn: 0
   GameOver: {fileID: 1331135641}
 --- !u!82 &1694153702
@@ -11678,8 +12035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_NoiseProfile: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
-  m_AmplitudeGain: 1.71
-  m_FrequencyGain: 4.38
+  m_AmplitudeGain: 1.05
+  m_FrequencyGain: 3.01
 --- !u!114 &1880728866
 MonoBehaviour:
   m_ObjectHideFlags: 3

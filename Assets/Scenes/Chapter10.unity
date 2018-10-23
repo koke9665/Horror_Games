@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,6 +113,94 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 2fd2e78f839c51d4484518b4f1c1b137, type: 2}
+--- !u!1 &23563071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23563072}
+  - component: {fileID: 23563075}
+  - component: {fileID: 23563074}
+  - component: {fileID: 23563073}
+  m_Layer: 5
+  m_Name: Iwhite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &23563072
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23563071}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 11.7, y: 6.9300003, z: 1}
+  m_Children: []
+  m_Father: {fileID: 966016612}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00024414062, y: 0.00012207031}
+  m_SizeDelta: {x: -1041.6799, y: -544}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &23563073
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23563071}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 949398da78e9445ebbea09332b66af9c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &23563074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23563071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &23563075
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23563071}
+  m_CullTransparentMesh: 0
 --- !u!1 &80966174
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text_Title: {fileID: 1805426931}
+  White: {fileID: 23563071}
   KeyBord: {fileID: 1063793993}
   KeyBord_w: {fileID: 490276233}
   KeyBord_a: {fileID: 1884688436}
@@ -790,6 +879,7 @@ MonoBehaviour:
   KeyBord_d: {fileID: 1718228106}
   Mouse: {fileID: 1709095792}
   Mouse_Type: {fileID: 1183069063}
+  White_Fade: {fileID: 23563073}
   Fade: {fileID: 80966175}
   Controller: {fileID: 345063750}
 --- !u!95 &345063750
@@ -1417,7 +1507,7 @@ RectTransform:
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 966016612}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1684,6 +1774,7 @@ RectTransform:
   - {fileID: 910915903}
   - {fileID: 1709095793}
   - {fileID: 1183069064}
+  - {fileID: 23563072}
   - {fileID: 755727828}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1880,7 +1971,7 @@ MonoBehaviour:
   bloomThreshold: 0.267
   bloomRadius: 1
   bloomKnee: 0.573
-  dirtIntensity: 0.089
+  dirtIntensity: 0.08
   useBloomStability: 0
   bloomFlareStarburstTex: {fileID: 0}
   bloomFlareStrength: 0.769
@@ -1919,12 +2010,12 @@ MonoBehaviour:
   brightIntensity: 0.3
   brightCutoff: 0.1
   brightSoftness: 1
-  useExposure: 0
+  useExposure: 1
   debugViewExposure: 0
-  exposureMiddleGrey: 0.12
-  exposureLowerLimit: 0.4
-  exposureUpperLimit: 9
-  exposureSpeed: 2.35
+  exposureMiddleGrey: 0.203
+  exposureLowerLimit: -7.35
+  exposureUpperLimit: 10
+  exposureSpeed: 4
   histWidth: 1
   histHeight: 1
   useGammaCorrection: 0

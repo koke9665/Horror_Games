@@ -9,15 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf70d726da084a46a532146eed95e86, type: 3}
-  m_Name: New PRISMPreset
+  m_Name: MainGame
   m_EditorClassIdentifier: 
   PresetDescription: Enter description for your preset.
   presetType: 0
-  useBloom: 0
+  useBloom: 1
   bloomType: 1
   bloomDownsampleEnum: 4
   bloomUseScreenBlend: 0
-  bloomDownsample: 2
+  bloomDownsample: 4
   bloomBlurPasses: 1
   bloomIntensity: 0.2
   bloomThreshold: 0.02
@@ -29,9 +29,10 @@ MonoBehaviour:
   bloomThreeIntensity: 0.15
   bloomFourIntensity: 0.15
   useBloomStability: 1
-  useBloomLensdirt: 0
-  bloomLensdirtIntensity: 2
-  bloomLensdirtTexture: {fileID: 0}
+  useBloomLensdirt: 1
+  bloomLensdirtIntensity: 0.0000001
+  bloomLensdirtTexture: {fileID: 2800000, guid: 7a051dbda2d7bc447bee412427cd311e,
+    type: 3}
   useFullScreenBlur: 0
   bloomFlareRadialColorTex: {fileID: 0}
   bloomFlareHaloTex: {fileID: 0}
@@ -51,19 +52,19 @@ MonoBehaviour:
   fogStartPoint: 50
   fogMidPoint: 50
   fogEndPoint: 50
-  fogDistance: 30
+  fogDistance: 341
   fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   fogEndColor: {r: 0, g: 0, b: 0, a: 1}
   fogMidColor: {r: 0, g: 0, b: 0, a: 1}
-  useDoF: 0
-  dofRadius: 0.6
+  useDoF: 1
+  dofRadius: 0
   dofSampleCount: 0
-  dofBokehFactor: 60
-  dofFocusPoint: 15
-  dofFocusDistance: 20
-  useNearBlur: 0
+  dofBokehFactor: 101
+  dofFocusPoint: 8.5
+  dofFocusDistance: 22
+  useNearBlur: 1
   dofBlurSkybox: 0
-  dofNearFocusDistance: 20
+  dofNearFocusDistance: 26.9
   dofForceEnableMedian: 0
   dofDownsample: 2
   useAmbientObscurance: 0
@@ -94,18 +95,18 @@ MonoBehaviour:
   vignetteIntensity: 1
   vignetteColor: {r: 0, g: 0, b: 0, a: 1}
   useNoise: 0
-  noiseIntensity: 0.2
+  noiseIntensity: 0
   useTonemap: 0
-  toneType: 1
-  toneValues: {x: -1, y: 2.72, z: 0.15}
-  secondaryToneValues: {x: 0.59, y: 0.14, z: 0.14}
+  toneType: 0
+  toneValues: {x: 6.2, y: 0.5, z: 1.7}
+  secondaryToneValues: {x: 0.004, y: 0.06, z: 0}
   useGammaCorrection: 0
   gammaValue: 1
-  useExposure: 0
-  exposureSpeed: 0.18
-  exposureMiddleGrey: 0.12
-  exposureLowerLimit: -6
-  exposureUpperLimit: 6
+  useExposure: 1
+  exposureSpeed: 5
+  exposureMiddleGrey: 0.243
+  exposureLowerLimit: -6.83
+  exposureUpperLimit: 10
   useLUT: 0
   lutPath: 
   lutIntensity: 1
