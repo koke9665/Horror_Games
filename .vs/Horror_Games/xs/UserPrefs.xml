@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{21061401-0EF3-454A-F29B-52F33EB10CF9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FontEvent/Font_Events.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scene_move.cs" Line="22" Column="8" />
+      <File FileName="Assets/Scripts/Scene_move.cs" Line="65" Column="39" />
       <File FileName="Assets/Chapter10/MainMenu2.cs" Line="44" Column="61" />
       <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="11" Column="39" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="95" Column="60" />
-      <File FileName="Assets/Scripts/Game_Bottom.cs" Line="23" Column="36" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="95" Column="46" />
+      <File FileName="Assets/Scripts/Game_Bottom.cs" Line="23" Column="10" />
       <File FileName="Assets/Scripts/Start_Noise.cs" Line="24" Column="6" />
       <File FileName="Assets/Cinemachine/Base/Runtime/Behaviours/CinemachineVirtualCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FontEvent/Font_Events.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
